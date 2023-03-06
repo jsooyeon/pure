@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./img/pavicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>퓨어 피부과</title>
+  <!-- 흘러가는 슬라이드 -->
+  <link rel="stylesheet" href="css/jquery.simplyscroll.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- nav -->
+  <link href="./css/nav.css" rel="stylesheet" type="text/css">
+  <!-- 슬라이드 css 배너-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"><!--수정X-->
+  <link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- top -->
+
+  <!-- 팝업 -->
+  <div class="popup">
+    <img src="./img/popup.png" alt="레이저제모">
+    <p><a href="#">close X</a></p>
+</div>
+
+  <div id="top">
+    <ul>
+      <li><a href="#">로그인 </a></li>
+      <li><a href="#">&nbsp;ENGLISH </a></li>
+      <li><a href="#">&nbsp;中國語 </a></li>
+      <li><a href="#">&nbsp;日本語 </a></li>
+    </ul>
+  </div>
+
+  <!-- header -->
+  <header>
+    <div class="header_inner">
+      <a href="#"><img src="./img/logo.png" alt="로고" class="logo"></a>
+    </div>
+
+    <!-- nav -->
+    <ul class="nav">
+      <li><a href="#">병원소개</a>
+        <div class="sub">
+          <div>
+            <ul>
+              <li><a href="#">의료진소개</a></li>
+              <li><a href="#">진료안내</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+      <li><a href="#">피부질환</a>
+        <div class="sub">
+          <div>
+            <ul>
+              <li><a href="#">대상포진</a></li>
+              <li><a href="#">사마귀</a></li>
+              <li><a href="#">알레르기</a></li>
+              <li><a href="#">아토피</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">피부미용</a></li>
+      <li><a href="#">커뮤니티</a></li>
+    </ul>
+    <!-- m nav -->
+    <div class="m_nav">
+      <input type="checkbox" id="menuicon">
+      <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="sidebar">
+        <ul>
+          <li><a href="#s1">병원소개</a>
+            <div class="m_sub">
+              <div>
+                <ul>
+                  <li><a href="#">의료진소개</a></li>
+                  <li><a href="#">진료안내</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#s2">피부질환</a>
+            <div class="m_sub">
+              <div>
+                <ul>
+                  <li><a href="#">대상포진</a></li>
+                  <li><a href="#">사마귀</a></li>
+                  <li><a href="#">알레르기</a></li>
+                  <li><a href="#">아토피</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#s3">피부미용</a></li>
+          <li><a href="#s4">커뮤니티</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- banner -->
+  <div class="swiper-container slide banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner.png" alt="당신의 소중한 피부 피부과전문의가 진료합니다"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner2.png" alt="정직한 진료로 언제나 편안하게
+          퓨어피부과입니다"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner3.png" alt="가족에게 옮길까봐 걱정돼요.. 손 발톱 무좀치료의 시작! 퓨어피부과와 함께하세요"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner4.png" alt="매끈한 피부를 위한 레이저 제모"></a>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-container slide m_banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner1_v.png" alt="당신의 소중한 피부 피부과전문의가 진료합니다"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner2_v.png" alt="정직한 진료로 언제나 편안하게 퓨어피부과입니다"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner3_v.png" alt="가족에게 옮길까봐 걱정돼요.. 손 발톱 무좀치료의 시작! 퓨어피부과와 함께하세요"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./img/main_banner4_v.png" alt="매끈한 피부를 위한 레이저 제모"></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- content1 -->
+  <div id="con1">
+    <h2>퓨어 만의 특별함</h2>
+    <div>
+      <ul>
+        <li><img src="./img/skin1_1.png" alt="1:1 맞춤 진료"> <br> 1:1 맞춤 진료</li>
+        <li><img src="./img/skin1_2.png" alt="수준 높은 진료"> <br> 수준 높은 진료</li>
+        <li><img src="./img/skin1_3.png" alt="첨단 장비 보유"> <br> 첨단 장비 보유</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- content2 -->
+  <div id="con2">
+    <h2>의료진 소개</h2>
+    <div class="con2_inner">
+
+      <div class="doctor1">
+        <h3><img src="./img/skin2_1.png" alt="대표원장"></h3>
+        <div class="word">
+          <h4>대표원장 강준영 피부과 전문의</h4>
+          <p>- 울산대학교 의과대학 졸업 <br>
+            - 서울아산병원 수련의 수료 <br>
+            - 울산대학교병원 피부과 전공의 수료 및 전문의 취득 <br>
+            - 울산의대 서울아산병원 피부과학 의학석사 취득 <br>
+            - 전) 오킴스피부과 원장 <br>
+            - 전) 참조은피부과 원장 <br>
+            - 현) 퓨어피부과 대표원장</p>
+        </div>
+      </div>
+
+      <div class="doctor2">
+        <h3><img src="./img/skin2_2.png" alt="원장2"></h3>
+        <div class="word">
+          <h4>원장 김장미 피부과 전문의</h4>
+
+          <p>- 서울대학교 전기공학부 수료 <br>
+            - 가톨릭대학교 의과대학 졸업 <br>
+            - 가톨릭 중앙의료원 인턴 및 전공의 <br>
+            - 가톨릭대학교 의과대학 피부과 전문의 <br>
+            - 가톨릭의과대학 피부과 외래조료수 <br>
+            - 현) 퓨어피부과 원장</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- content3 -->
+  <div id="con3">
+    <h2>치료후기</h2>
+    <ul id="scroller">
+      <li><a href="#">
+          <p>wjd******* <br>
+            [주름 / 탄력] <br>
+            목주름이 ********</p>
+        </a></li>
+      <li>
+        <p>852******* <br>
+          [색소 / 기미] <br>
+          너무 친절********</p>
+      </li>
+      <li>
+        <p>gfd******* <br>
+          [흉터] <br>
+          여드름때문********</p>
+      </li>
+      <li>
+        <p>jkl******* <br>
+          [흉터] <br>
+          흉터고민이********</p>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- content4 -->
+  <div id="con4">
+    <div class="con4_inner">
+      <div class="left">
+        <h2>진료시간</h2>
+        <div class="time">
+          <p>평&nbsp;&nbsp;&nbsp;&nbsp;일 : 오전 9:00 ~ 오후 6:00</p>
+          <p>토&nbsp;요&nbsp;일 : 오전 9:00 ~ 오후 1:00</p>
+          <p>점심시간 : 오후 12:30 ~ 오후 2:00</p>
+          <p>일요일 및 공휴일은 휴진입니다. </p>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>찾아오시는 길</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13057.096371258485!2d129.0369073!3d35.0998661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e3015aa23966ba!2z67aA7IKw64KY656Y65SU7J6Q7J247ZWZ7JuQ!5e0!3m2!1sko!2skr!4v1672636115492!5m2!1sko!2skr"
+          width="500" height="500" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- content5 -->
+  <div id="con5">
+    <div class="con5_inner">
+      <div class="call1">
+        <p>전화간편예약</p>
+      </div>
+      <div class="call2">
+        <p>휴대전화 <input type="text" class="num">-<input type="text" class="num">-<input type="text" class="num"></p>
+      </div>
+      <input type="submit" value="예약하기" class="submit">
+    </div>
+    <h6>전문 상담원이 전화드려 진료예약을 도와드립니다. (단, 당일 예약 불가)</h6>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <ul>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">이용약관</a></li>
+    </ul>
+
+    <ul class="sns">
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="./img/sns-insta.png" alt="인스타그램"></a></li>
+      <li><a href="https://www.kakaocorp.com/" target="_blank"><img src="./img/sns-kakao.png" alt="페이스북"></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank"><img src="./img/sns-youtub.png" alt="유튜브"></a></li>
+  </ul>
+
+    <p>부산광역시 중구 중앙대로 26 다원중앙타워 9 <br>
+      TEL : 1588-0000 / FAX : 051-000-0000 / e-mail : pmn0728@naver.com <br>
+      사업자등록번호 : 123-45-67890 / 대표 : 정수연</p>
+
+  </footer>
+
+  <!-- fixed -->
+  <ul class="fix">
+<li><a href="#con5"><img src="./img/fix_call.png" alt="전화예약"><p>전화예약</p></a></li>
+<li><a href="#none"><img src="./img/fix_kakao.png" alt="카카오톡상담"><p>카카오상담</p></a></li>
+<li><a href="#con4"><img src="./img/fix_map.png" alt="지도"><p>찾아오시는길</p></a></li>
+<li><a href="#">TOP</a></li>
+  </ul>
+
+  <!-- js -->
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- 흘러가는 슬라이드 -->
+  <script src="script/jquery.simplyscroll.min.js"></script>
+  <script src="script/simplyscroll.js"></script>
+
+  <!-- nav -->
+  <script src="./script/menu.js"></script>
+
+  <!-- 배너 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="./script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+
+  <!-- 팝업 -->
+  <script src="./script/popup.js"></script>
+
+</body>
+
+</html>
