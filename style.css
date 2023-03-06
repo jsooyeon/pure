@@ -116,13 +116,18 @@ header {
 .sub a {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     display: block;
+    font-size: 16px;
+}
 
+.sub div ul li:nth-child(1){
+    padding-top: 28px;
 }
 
 .sub a:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .nav li:hover .sub {
