@@ -30,7 +30,7 @@ body {
 .popup{
     position: absolute;
     top: 200px;
-    left: 300px;
+    left: 35%;
 }
 .popup img{
     display: block;
@@ -118,11 +118,11 @@ header {
     text-align: center;
     padding: 10px 0;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .sub div ul li:nth-child(1){
-    padding-top: 28px;
+    padding-top: 27px;
 }
 
 .sub a:hover {
@@ -332,7 +332,7 @@ iframe {
     border: none;
     background-color: #0b1c30;
     height: 80px;
-    color: #ffdef3;
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -353,7 +353,7 @@ h6 {
 footer {
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 footer li {
@@ -366,6 +366,12 @@ footer li {
     float: right;
 }
 
+.sns a{
+    opacity: 0.5;
+}
+.sns a:hover{
+opacity: 1;
+}
 footer p {
     clear: both;
 }
@@ -444,10 +450,6 @@ footer p {
 
 /* mobile */
 @media(max-width:700px) {
-    .popup{
-        left:5%;
-    }
-
 
     #con1 div ul {
         flex-direction: column;
@@ -502,6 +504,12 @@ footer p {
         clear: both;
         float: left;
     }
+
+    /* fixed */
+
+.fix li{
+    width: 70px;
+
 }
 
 /* mobile */
