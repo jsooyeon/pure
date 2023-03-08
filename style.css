@@ -30,7 +30,7 @@ body {
 .popup{
     position: absolute;
     top: 200px;
-    left: 35%;
+    left: 40%;
 }
 .popup img{
     display: block;
@@ -511,9 +511,11 @@ footer p {
     width: 70px;
 
 }
+}
 
 /* mobile */
 @media(max-width:500px) {
+  
     #con1 li {
         font-size: 18px;
     }
@@ -555,6 +557,10 @@ footer p {
 /* mobile */
 @media(max-width:350px) {
 
+    .popup {
+        left: 3%;
+    }
+
     .call1 {
         display: none;
     }
@@ -565,5 +571,13 @@ footer p {
 
     h6 {
         margin: 5px;
+    }
+
+    .time{
+        font-size: 16PX;
+    }
+
+    .fix li a{
+        font-size: 12px;
     }
 }
